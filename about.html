@@ -2,35 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>About | My Free Site</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Education Site - About</title>
   <!-- Google Tag Manager -->
   <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PNK3KN6H');
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+    new Date().getTime(), event:'gtm.js'}); var f=d.getElementsByTagName(s)[0], 
+    j=d.createElement(s), dl=l!='dataLayer' ? '&l='+l : ''; j.async=true; 
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
+    f.parentNode.insertBefore(j,f); })(window, document, 'script', 'dataLayer', 'GTM-PNK3KN6H');
   </script>
   <!-- End Google Tag Manager -->
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12QDDSCY1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-P12QDDSCY1');
+  </script>
+  <!-- End Google Analytics 4 -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNK3KN6H"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNK3KN6H" 
+  height="0" width="0" style="display:none; visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
-  <nav>
-    <a href="index.html" id="home-link">Home</a>
-    <a href="about.html" id="about-link">About</a>
-    <a href="contact.html" id="contact-link">Contact</a>
-  </nav>
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" id="home-link">Home</a></li>
+        <li><a href="about.html" id="about-link" class="active">About</a></li>
+        <li><a href="guides.html" id="guides-link">Guides</a></li>
+        <li><a href="contact.html" id="contact-link">Contact</a></li>
+        <li><a href="partners.html" id="partners-link">Partners</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-    <h1>About Me</h1>
-    <p>This is the about page. Another GTM trigger point!</p>
+    <h1>About This Project</h1>
+    <p>This website was created to help beginners understand the fundamentals of artificial 
+       intelligence. Our aim is to break down complex AI concepts into simple guides and 
+       explanations so that anyone can learn how AI works.</p>
+    <p>The project began as a way to make AI knowledge accessible to a broader audience. We 
+       cover topics ranging from basic definitions of AI to real-world applications and even 
+       ethical considerations in AI development.</p>
+    <p>Artificial intelligence is a rapidly evolving field, and it’s increasingly present in 
+       technologies we use every day. By learning its basics, you become part of a community 
+       of innovators and thinkers who are shaping the future. We believe that understanding AI 
+       is essential for everyone in the modern world.</p>
   </main>
+
+  <footer>
+    <p>Follow us on 
+      <a href="https://www.instagram.com/openai" target="_blank" rel="noopener">Instagram</a> and 
+      <a href="https://twitter.com/openai" target="_blank" rel="noopener">Twitter</a>.
+    </p>
+    <p>&copy; 2025 AI Learning Hub</p>
+  </footer>
 </body>
 </html>
